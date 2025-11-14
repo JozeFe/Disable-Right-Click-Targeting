@@ -1,0 +1,12 @@
+package-as: Disable Right Click Targeting
+
+ignore:
+  - .git
+  - .github
+  - .release
+  - README.md
+  - .pkgmeta
+  - .gitignore
+  - Libs
+
+manual-changelog: CHANGELOG.md

@@ -9,6 +9,7 @@ on:
     paths-ignore:
     - ".github/**"
     - "README.md"
+    - ".gitignore"
 
 jobs:
   release:
