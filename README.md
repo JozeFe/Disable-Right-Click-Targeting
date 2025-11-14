@@ -7,3 +7,6 @@ This helps prevent accidental target switching while turning the camera, moving,
 - Stops right-click targeting entirely
 - Improves camera control and movement precision
 - Works automatically with no setup or configuration
+
+## License
+MIT – see [LICENSE](LICENSE)

@@ -1,0 +1,7 @@
+# OS/Editor
+.DS_Store
+*.swp
+# Libs (pulled by .pkgmeta)
+Libs/
+# GitHub Actions
+.release/
