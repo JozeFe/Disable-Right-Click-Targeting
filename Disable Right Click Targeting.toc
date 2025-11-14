@@ -1,0 +1,7 @@
+## Interface: 120000, 110205
+## Title: Disable Right Click Targeting
+## Author: Ynnas
+## Version: 1.0.0
+## Notes: Disables right-click targeting in WoW to prevent accidental target changes and improve camera control.
+
+Disable Right Click Targeting.lua
