@@ -1,13 +1,22 @@
 name: Release
 on:
   push:
-    tags: ['v*']
+    branches:
+      - main
+    tags:
+      - '**'
+
+    paths-ignore:
+    - ".github/**"
+    - "README.md"
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: BigWigsMods/packager@v1
-      env:
-        CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      with:
+        fetch-depth: 0
+    - uses: BigWigsMods/packager@v2
+    env:
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
