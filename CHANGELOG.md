@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.3 (2025-04-22)
+- tested and updated for version 12.0.5
+
 ## v1.0.2 (2025-01-29)
 - tested and updated for version 12.0.1
 
